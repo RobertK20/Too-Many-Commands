@@ -1,5 +1,5 @@
 $root=Get-Location
-$loc="$root\ps1"
+$loc="$root\cmd"
 
 if(([Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::User)) -notlike "*$loc*") {
 	    Write-Host "Updating PATH"
