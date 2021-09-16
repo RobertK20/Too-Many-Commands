@@ -6,3 +6,5 @@ if(([Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::U
 	        [Environment]::SetEnvironmentVariable("Path", [Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::User) + ";$loc", [System.EnvironmentVariableTarget]::User)
 		  
 }
+
+
